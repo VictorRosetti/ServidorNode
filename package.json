@@ -1,7 +1,7 @@
 {
-  "name": "servidornode",
+  "name": "nodeserver",
   "version": "1.0.0",
-  "description": "Teste em aula",
+  "description": "Servidor teste para aula.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,8 @@
   "author": "Victor Rosetti",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "sqlite3": "^5.1.6"
   }
 }
